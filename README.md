@@ -1,0 +1,2 @@
+# gacha
+web gacha project
