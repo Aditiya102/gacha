@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>EB Gacha Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>🎰 EB GACHA PRO</h1>
+
+  <!-- AUTH -->
+  <div class="auth">
+    <input id="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <button onclick="register()">Register</button>
+  </div>
+
+  <h3 id="saldo">Saldo: 0</h3>
+
+  <!-- RODA -->
+  <div class="wheel-container">
+    <div class="pointer">▼</div>
+    <canvas id="wheel" width="300" height="300"></canvas>
+  </div>
+
+  <button onclick="spin()">SPIN (5000)</button>
+
+  <h2 id="result"></h2>
+
+  <h3>Riwayat</h3>
+  <ul id="history"></ul>
+
+  <button onclick="topup()">+ Topup 10000</button>
+  <button onclick="topup()">+ Topup 5000</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

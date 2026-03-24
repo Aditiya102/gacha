@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(135deg, #1e90ff, #6a5acd);
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: gold;
+  cursor: pointer;
+}
+
+.wheel-container {
+  position: relative;
+  display: inline-block;
+}
+
+.pointer {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-size: 30px;
+}
